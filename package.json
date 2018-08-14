@@ -1,0 +1,29 @@
+{
+  "name": "news_scrape",
+  "version": "1.0.0",
+  "description": "HW week 18: Scrapes news and allows comments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jav90/news_scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jav90/news_scrape/issues"
+  },
+  "homepage": "https://github.com/jav90/news_scrape#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.8",
+    "request": "^2.88.0"
+  }
+}
